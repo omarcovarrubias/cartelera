@@ -1,0 +1,143 @@
+/* 
+______________FUENTES________________
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+
+______________COLORES________________
+#CFD0D1;-----GRIS
+#232323;-----FONDO GRIS OSCURO
+#546CC3;-----BOTÓN AZUL
+#343434;-----TITULOS GRIS
+#F7F7F7;-----FONDO BLANCO
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:
+        border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+    font-family: 'Lora', serif;
+    font-size: 21px;
+    color: #FFF;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.6;
+}
+
+a {
+    display: inline-block;
+    /*text-decoration: none;*/
+}
+
+.margen-interno {
+    padding: 0 50px;
+}
+
+.header {
+    background: url(imagenes/bg-2.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+
+.menu {
+    background: rgba(0, 0, 0, .1);
+    height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+}
+
+.logo a {
+    color: #fff;
+    font-size: 30px;
+}
+
+.logo a:hover {
+    color: #343434;
+}
+
+nav a {
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
+
+nav i {
+    padding-right: 8px;
+}
+
+nav a:hover {
+    color: #343434;
+}
+
+.top-social a {
+    font-size: 18px;
+    color: #fff;
+    padding: 0 5px;
+}
+
+.top-social a:hover {
+    color: #343434;
+}
+
+.seccion-articulo {
+    background: #F7F7F7;
+}
+
+.arriba {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.articulo-1 {
+    color: #444;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+
+h3 {
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 0;
+    margin-top: -80px;
+}
+
+.articulo-1 p {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 0px 0 10px 0;
+    color: #fff;
+}
+
+.articulo-1 img {}
+
+.articulo-1 a {
+    color: rgb(3, 1, 1);
+    font-size: 13px;
+    padding: 10px 10px;
+    background: rgb(227, 225, 225);
+    margin: 10px 0;
+}
+
+.articulo-1 a:hover {
+    background: #546CC3;
+}
+
+h4 {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+}

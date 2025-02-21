@@ -1,0 +1,53 @@
+.contenedor {
+    justify-content: center;
+    text-align: justify;
+    width: 400px;
+    height: 340px;
+    margin: auto;
+    margin-top: 180px;
+}
+
+body {
+    background: rgba(244, 244, 202, .5);
+}
+
+input {
+    border: 2px solid #ccc;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Lato';
+    padding: 10px;
+    
+    
+}
+
+label {
+    width: 150px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    
+}
+
+form {
+    margin: 25px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    width: 500px;
+    background: #eee;
+    
+}
+
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';    
+    background: yellowgreen;
+    color: white;
+    border: solid;
+}
+.form-element
+{
+    padding: 20px;
+}

@@ -1,0 +1,196 @@
+.padre {
+    display: flex;
+    /*todo el sitio es flex*/
+    flex-flow: row wrap;
+}
+
+.hijo {
+    flex: 1 1 100%;
+}
+
+.header {
+    display: flex;
+    /*transformamos el header a padre*/
+    flex-flow: row wrap;
+    /*ahora sus hijos (.menu, .texto-principal) están uno bajo el otro*/
+}
+
+.menu {
+    display: flex;
+    /*transformamos a padre*/
+    width: 100%;
+    align-items: center;
+}
+
+/*.menu HIJOS*/
+.logo {
+    flex: 1 1 auto;
+}
+
+.nav {
+    flex: 5 1 auto;
+}
+
+/*es 5 veces el tamaño del resto*/
+.top-social {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texto-principal {
+    display: flex;
+    align-items: center;
+    height: 580px;
+    padding: 0 200px;
+}
+
+.arriba {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.columna-1 {
+    flex: 3 1;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.columna-2 {
+    flex: 1 1;
+    
+    margin: 10px 5px 10px 0;
+}
+
+.articulo-1 {
+    
+    margin: 10px 10px 0 0px;
+    flex: 1 1 45%;
+    background: #ececec;
+}
+
+.articulo-1 img {
+    max-width: 100%;
+}
+
+.columna-2 img {
+    max-width: 100%;
+}
+
+.navegacion {
+    flex: 1 1 100%;
+    background: #000;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.footer {
+    background: #000;
+    width: 100%;
+    text-align: center;
+}
+
+@media all and (max-width: 860px) {
+    .top-social {
+        display: none;
+    }
+
+    .nav,
+    .logo {
+        flex: 1 1 auto;
+    }
+
+    .menu {
+        justify-content: space-between;
+    }
+
+    .nav {
+        text-align: right;
+    }
+
+    .texto-principal {
+        padding: 0 15px;
+    }
+
+    .margen-interno {
+        padding: 0 5px;
+    }
+
+}
+
+@media all and (max-width: 720px) {
+    .menu {
+        flex-wrap: wrap;
+    }
+
+    .logo,
+    .nav {
+        text-align: center;
+    }
+
+    .columna-1 {
+        flex: 1 1 100%;
+        display: flex;
+        flex-flow: row wrap;
+        height: 100%;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+
+    .columna-2 {
+        flex: 1 1;        
+        margin: 10px 5px 10px 0;
+        display: flex;
+    }
+}
+
+@media all and (max-width: 582px) {
+    .off {
+        display: none;
+    }
+
+    nav a {
+        font-size: 18px;
+        padding: 0 10px;
+        letter-spacing: 0px;
+    }
+
+    nav i {
+        padding-right: 0px;
+    }
+
+    .columna-2 {
+        display: none;
+    }
+
+    .columna-1 {
+        flex-flow: column wrap;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .texto-principal {
+        padding: 0 5px;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
+    nav a {
+        font-size: 18px;
+        padding: 0 10px;
+        letter-spacing: 0px;
+    }
+
+    nav i {
+        padding-right: 0px;
+    }
+
+    .margen-interno {
+        padding: 0 5px;
+    }
+}
